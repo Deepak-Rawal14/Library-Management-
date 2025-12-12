@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=GuestTest
+comment0.text=\r\n\ The\ test\ class\ GuestTest.\r\n\r\n\ @author\ \ Deepak\r\n\ @version\ 30.11.2023\r\n
+comment1.params=
+comment1.target=void\ getGuestName()
+comment1.text=\r\n\ Testing\ the\ method\ getGuestName.\r\n
+comment2.params=
+comment2.target=void\ setGuestName()
+comment2.text=\r\n\ Testing\ the\ method\ setGuestName.\r\n
+comment3.params=
+comment3.target=void\ getGuestId()
+comment3.text=\r\n\ Testing\ the\ method\ getGuestId.\r\n
+comment4.params=
+comment4.target=void\ setGuestId()
+comment4.text=\r\n\ Testing\ the\ method\ setGuestId.\r\n
+comment5.params=
+comment5.target=void\ getDurationOfAccess()
+comment5.text=\r\n\ Testing\ the\ method\ getDurationOfAccess.\r\n
+comment6.params=
+comment6.target=void\ setDurationOfAccess()
+comment6.text=\r\n\ Testing\ the\ method\ setDurationOfAccess.\r\n
+comment7.params=
+comment7.target=void\ borrowBook()
+comment7.text=\r\n\ Testing\ the\ method\ borrowBook.\r\n
+numComments=8

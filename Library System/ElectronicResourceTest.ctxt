@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=ElectronicResourceTest
+comment0.text=\r\n\ The\ test\ class\ ElectronicResourceTest.\r\n\r\n\ @author\ \ Deepak\r\n\ @version\ 30.11.2023\r\n
+comment1.params=
+comment1.target=void\ getEbook()
+comment1.text=\r\n\ Testing\ the\ method\ getEbook.\r\n
+comment2.params=
+comment2.target=void\ setEbook()
+comment2.text=\r\n\ Testing\ the\ method\ setEbook.\r\n
+comment3.params=
+comment3.target=void\ getJournal()
+comment3.text=\r\n\ Testing\ the\ method\ getJournal.\r\n
+comment4.params=
+comment4.target=void\ setJournal()
+comment4.text=\r\n\ Testing\ the\ method\ setJournal.\r\n
+comment5.params=
+comment5.target=void\ isDownloadable()
+comment5.text=\r\n\ Testing\ the\ method\ isDownloadable.\r\n
+comment6.params=
+comment6.target=void\ setDownloadable()
+comment6.text=\r\n\ Testing\ the\ method\ setDownloadable.\r\n
+comment7.params=
+comment7.target=void\ printDetails()
+comment7.text=\r\n\ Testing\ the\ method\ printDetails.\r\n
+numComments=8

@@ -1,0 +1,230 @@
+<mxfile host="app.diagrams.net" modified="2023-12-01T03:43:34.596Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="Cd88ddZXGWlJNW7WeFuL" version="22.1.5" type="device">
+  <diagram name="Page-1" id="abRC0kifaDFJ5st_ZedO">
+    <mxGraphModel dx="2589" dy="1391" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Y-OMYpobRgQkIRk9tifp-6" value="Untitled Layer" parent="0" />
+        <UserObject label="&lt;p style=&quot;text-align: center; margin: 4px 0px 0px;&quot;&gt;&lt;b&gt;Author&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;-&amp;nbsp; &amp;nbsp;authorAddress&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;-&amp;nbsp; authorFirstName&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;-&amp;nbsp; &amp;nbsp;authorSurname&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp;+&amp;nbsp; getAuthorAddress()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp;+&amp;nbsp; getAuthorFirstName()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp;+&amp;nbsp; getAauthorSurname()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp;+&amp;nbsp; setAuthorAddress(address)&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp;+&amp;nbsp; setAuthorFirstName(fn)&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp;+&amp;nbsp; setAauthorSurname(sn)&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;/p&gt;&amp;nbsp; +&amp;nbsp; showDetails()" id="Y-OMYpobRgQkIRk9tifp-7">
+          <mxCell style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="Y-OMYpobRgQkIRk9tifp-6">
+            <mxGeometry x="50" y="200" width="180" height="200" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Y-OMYpobRgQkIRk9tifp-11" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.169;entryY=1.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Y-OMYpobRgQkIRk9tifp-6" source="Y-OMYpobRgQkIRk9tifp-7" target="Y-OMYpobRgQkIRk9tifp-9">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="440" y="440" as="sourcePoint" />
+            <mxPoint x="600" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="185" y="420" />
+              <mxPoint x="250" y="420" />
+              <mxPoint x="290" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;p style=&quot;text-align: center; margin: 4px 0px 0px;&quot;&gt;&lt;b&gt;PhysicalBook&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;-&amp;nbsp; &amp;nbsp;bookTitle&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;-&amp;nbsp; &amp;nbsp;isbn&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp;+&amp;nbsp; &amp;nbsp;addDamage(damage)&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp;+&amp;nbsp; &amp;nbsp;getAuthor()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp;+&amp;nbsp; &amp;nbsp;getBookTitle()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp;+&amp;nbsp; &amp;nbsp;getDamages()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp;+&amp;nbsp; &amp;nbsp;getIsbn()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp;+&amp;nbsp; &amp;nbsp;getLibMember()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;/p&gt;&amp;nbsp; +&amp;nbsp; &amp;nbsp;isAvailable()&lt;br&gt;&amp;nbsp; +&amp;nbsp; &amp;nbsp;printDetails()&lt;br&gt;&amp;nbsp; +&amp;nbsp; &amp;nbsp;setAuthor(auth)&lt;br&gt;&amp;nbsp; +&amp;nbsp; &amp;nbsp;setBookTitle(ttl)&lt;br&gt;&amp;nbsp; +&amp;nbsp; &amp;nbsp;setDamages(damage)&lt;br&gt;&amp;nbsp; +&amp;nbsp; &amp;nbsp;setIsbn(isbnumber)&lt;br&gt;&amp;nbsp; +&amp;nbsp; &amp;nbsp;setLibMember(libmember)" id="Y-OMYpobRgQkIRk9tifp-12">
+          <mxCell style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="Y-OMYpobRgQkIRk9tifp-6">
+            <mxGeometry x="40" y="515" width="180" height="270" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Y-OMYpobRgQkIRk9tifp-14" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;entryX=0.167;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.998;exitY=0.758;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="Y-OMYpobRgQkIRk9tifp-6" source="Y-OMYpobRgQkIRk9tifp-12" target="Y-OMYpobRgQkIRk9tifp-13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="175" y="785" as="sourcePoint" />
+            <mxPoint x="240" y="315" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="250" y="720" />
+              <mxPoint x="270" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;p style=&quot;text-align: center; margin: 4px 0px 0px;&quot;&gt;&lt;b&gt;LibraryMember&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; -&amp;nbsp; memberContact&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; -&amp;nbsp; memberId&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; -&amp;nbsp; memberName&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; addBooksBorrowed(book)&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; getBooksBorrowed()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; getMemberContact()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; getMemberId()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; getMemberName()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; getNumberOfBooksBorrowed()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;/p&gt;&amp;nbsp; &amp;nbsp;+&amp;nbsp; isAvailable()&lt;br&gt;&amp;nbsp; &amp;nbsp;+&amp;nbsp; printDetails()&lt;br&gt;&amp;nbsp; &amp;nbsp;+&amp;nbsp; setMemberContact(memcontact)&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; setMemberId(memid)&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; setMemberName(memname)&lt;/p&gt;" id="Y-OMYpobRgQkIRk9tifp-15">
+          <mxCell style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="Y-OMYpobRgQkIRk9tifp-6">
+            <mxGeometry x="500" y="810" width="200" height="270" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;p style=&quot;text-align: center; margin: 4px 0px 0px;&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;LibraryMemberTest&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; addBooksBorrowed()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; getBooksBorrowed()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; getMemberContact()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; getMemberId()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; getMemberName()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; getNumberOfBooksBorrowed()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;/p&gt;&amp;nbsp; &amp;nbsp;+&amp;nbsp; printDetails()&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp;+&amp;nbsp; setMemberContact()&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; setMemberId()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; setMemberName()&lt;/p&gt;" id="Y-OMYpobRgQkIRk9tifp-16">
+          <mxCell style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Y-OMYpobRgQkIRk9tifp-6">
+            <mxGeometry x="720" y="785" width="210" height="200" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Y-OMYpobRgQkIRk9tifp-17" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;exitX=0.697;exitY=1.008;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.193;entryY=1.015;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Y-OMYpobRgQkIRk9tifp-6" source="Y-OMYpobRgQkIRk9tifp-15" target="Y-OMYpobRgQkIRk9tifp-16">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="640" y="1110" as="sourcePoint" />
+            <mxPoint x="800" y="1110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="1100" />
+              <mxPoint x="761" y="1100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y-OMYpobRgQkIRk9tifp-18" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;exitX=0.715;exitY=1.001;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.095;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="Y-OMYpobRgQkIRk9tifp-19" target="Y-OMYpobRgQkIRk9tifp-20" parent="Y-OMYpobRgQkIRk9tifp-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1220" y="990" as="sourcePoint" />
+            <mxPoint x="1380" y="990" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1220" y="920" />
+              <mxPoint x="1280" y="920" />
+              <mxPoint x="1320" y="920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;p style=&quot;text-align: center; margin: 4px 0px 0px;&quot;&gt;&lt;b&gt;Guest&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; -&amp;nbsp; durationOfAccess&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; -&amp;nbsp; guestId&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; -&amp;nbsp; guestName&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; borrowBook()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; getDurationOfAccess()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; getGuestId()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; getGuestName()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; setDurationOfAccess(durAccess)&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; setGuestId(gId)&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; setGuestName(gName)&lt;/p&gt;" id="Y-OMYpobRgQkIRk9tifp-19">
+          <mxCell style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="Y-OMYpobRgQkIRk9tifp-6">
+            <mxGeometry x="1070" y="690" width="210" height="200" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;p style=&quot;text-align: center; margin: 4px 0px 0px;&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;LibraryMemberTest&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; borrowBook()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; getDurationOfAccess()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; getGuestId()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; getGuestName()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; setDurationOfAccess()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; setGuestId()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; setGuestName()&lt;/p&gt;" id="Y-OMYpobRgQkIRk9tifp-20">
+          <mxCell style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Y-OMYpobRgQkIRk9tifp-6">
+            <mxGeometry x="1300" y="665" width="210" height="150" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Y-OMYpobRgQkIRk9tifp-21" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;exitX=0.697;exitY=1.008;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.095;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Y-OMYpobRgQkIRk9tifp-6" source="Y-OMYpobRgQkIRk9tifp-22" target="Y-OMYpobRgQkIRk9tifp-23">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1330" y="645" as="sourcePoint" />
+            <mxPoint x="1490" y="645" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1330" y="575" />
+              <mxPoint x="1390" y="575" />
+              <mxPoint x="1430" y="575" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;p style=&quot;text-align: center; margin: 4px 0px 0px;&quot;&gt;&lt;b&gt;ElectronicResource&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; -&amp;nbsp; downloadable&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; -&amp;nbsp; ebook&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; -&amp;nbsp; journal&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; getEbook()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; getJournal()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; isDownloadable()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; printDetails()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; setEbook(eb)&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; setJournal(jrnl)&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; setDownloadable(download)&lt;/p&gt;" id="Y-OMYpobRgQkIRk9tifp-22">
+          <mxCell style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="Y-OMYpobRgQkIRk9tifp-6">
+            <mxGeometry x="1190" y="345" width="200" height="200" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;p style=&quot;text-align: center; margin: 4px 0px 0px;&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;ElectronicResourceTest&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; getEbook()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; getJournal()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; isDownloadable()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; printDetails()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; setEbook()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; setJournal()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; setDownloadable()&lt;/p&gt;" id="Y-OMYpobRgQkIRk9tifp-23">
+          <mxCell style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Y-OMYpobRgQkIRk9tifp-6">
+            <mxGeometry x="1410" y="315" width="210" height="150" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Y-OMYpobRgQkIRk9tifp-24" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;exitX=0.697;exitY=1.008;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="Y-OMYpobRgQkIRk9tifp-6" source="Y-OMYpobRgQkIRk9tifp-25">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="850" y="355" as="sourcePoint" />
+            <mxPoint x="950" y="285" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="790" y="345" />
+              <mxPoint x="950" y="345" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;p style=&quot;text-align: center; margin: 4px 0px 0px;&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;LibraryTest&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; addResource()&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; +&amp;nbsp; allElectronic Resources()&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; +&amp;nbsp; allPhysicalBook()&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; contain Resource()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; getNumberOfResources()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; lendBook()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; +&amp;nbsp; modifyAuthorName()&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; +&amp;nbsp; printBooksAvailable()&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; +&amp;nbsp; removeResource()&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; +&amp;nbsp; removeResourceFromPosition()&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; +&amp;nbsp; returnBook()&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; +&amp;nbsp; searchAuthorSurname()&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; +&amp;nbsp; search Title()&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; +&amp;nbsp; setCatalogue()&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; +&amp;nbsp; setCatalogue()&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" id="Y-OMYpobRgQkIRk9tifp-26">
+          <mxCell style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Y-OMYpobRgQkIRk9tifp-6">
+            <mxGeometry x="920" y="20" width="210" height="250" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Y-OMYpobRgQkIRk9tifp-28" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;exitX=0.223;exitY=-0.012;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.167;entryY=0.997;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Y-OMYpobRgQkIRk9tifp-6" source="Y-OMYpobRgQkIRk9tifp-12" target="Y-OMYpobRgQkIRk9tifp-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="10" y="460" as="sourcePoint" />
+            <mxPoint x="90" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y-OMYpobRgQkIRk9tifp-29" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;strokeColor=#82b366;fontColor=#393C56;fillColor=#d5e8d4;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.043;exitY=-0.007;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="Y-OMYpobRgQkIRk9tifp-6" source="Y-OMYpobRgQkIRk9tifp-13" target="Y-OMYpobRgQkIRk9tifp-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="320" y="510" as="sourcePoint" />
+            <mxPoint x="320" y="388.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y-OMYpobRgQkIRk9tifp-30" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;entryX=0;entryY=0.481;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.439;exitY=0.998;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="Y-OMYpobRgQkIRk9tifp-6" source="Y-OMYpobRgQkIRk9tifp-12" target="Y-OMYpobRgQkIRk9tifp-15">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="120" y="840" as="sourcePoint" />
+            <mxPoint x="280" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y-OMYpobRgQkIRk9tifp-31" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;strokeColor=#82b366;fontColor=#393C56;fillColor=#d5e8d4;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Y-OMYpobRgQkIRk9tifp-6" source="Y-OMYpobRgQkIRk9tifp-13" target="Y-OMYpobRgQkIRk9tifp-15">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="290" y="680" as="sourcePoint" />
+            <mxPoint x="631.33" y="768.23" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y-OMYpobRgQkIRk9tifp-32" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="Y-OMYpobRgQkIRk9tifp-6" source="Y-OMYpobRgQkIRk9tifp-25" target="Y-OMYpobRgQkIRk9tifp-12">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="519.9999999999998" y="304.99999999999994" as="sourcePoint" />
+            <mxPoint x="520.0699999999999" y="794.96" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y-OMYpobRgQkIRk9tifp-33" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;strokeColor=#82b366;fontColor=#393C56;fillColor=#d5e8d4;entryX=0.699;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.072;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="Y-OMYpobRgQkIRk9tifp-6" source="Y-OMYpobRgQkIRk9tifp-26" target="Y-OMYpobRgQkIRk9tifp-15">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="940" y="290" as="sourcePoint" />
+            <mxPoint x="900.0699999999999" y="719.96" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y-OMYpobRgQkIRk9tifp-36" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;strokeColor=#82b366;fontColor=#393C56;fillColor=#d5e8d4;entryX=1.022;entryY=0.692;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.005;exitY=0.051;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="Y-OMYpobRgQkIRk9tifp-6" source="Y-OMYpobRgQkIRk9tifp-16" target="Y-OMYpobRgQkIRk9tifp-12">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="972.54" y="269.73" as="sourcePoint" />
+            <mxPoint x="677.54" y="809.73" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y-OMYpobRgQkIRk9tifp-37" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;strokeColor=#82b366;fontColor=#393C56;fillColor=#d5e8d4;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.616;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Y-OMYpobRgQkIRk9tifp-6" source="Y-OMYpobRgQkIRk9tifp-16" target="Y-OMYpobRgQkIRk9tifp-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="740" y="760" as="sourcePoint" />
+            <mxPoint x="347.26" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y-OMYpobRgQkIRk9tifp-38" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Y-OMYpobRgQkIRk9tifp-6" source="Y-OMYpobRgQkIRk9tifp-26" target="Y-OMYpobRgQkIRk9tifp-12">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="889.88" y="260" as="sourcePoint" />
+            <mxPoint x="594.88" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y-OMYpobRgQkIRk9tifp-39" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.002;exitY=0.85;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="Y-OMYpobRgQkIRk9tifp-6" source="Y-OMYpobRgQkIRk9tifp-25" target="Y-OMYpobRgQkIRk9tifp-22">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="850.5" y="290" as="sourcePoint" />
+            <mxPoint x="758" y="784.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y-OMYpobRgQkIRk9tifp-40" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;strokeColor=#82b366;fontColor=#393C56;fillColor=#d5e8d4;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="Y-OMYpobRgQkIRk9tifp-6" source="Y-OMYpobRgQkIRk9tifp-26" target="Y-OMYpobRgQkIRk9tifp-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="895.2" y="250" as="sourcePoint" />
+            <mxPoint x="600.2" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;p style=&quot;text-align: center; margin: 4px 0px 0px;&quot;&gt;&lt;b&gt;Library&lt;/b&gt;&lt;/p&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+&amp;nbsp; addResource(resource)&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+&amp;nbsp; allElectronic Resources()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp; allPhysicalBook()&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp; contain Resource(resource)&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp; getCatalogue()&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp; getNumberOfResources()&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp; lendBook(book, libmember)&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp; modifyAuthorName(book, newAuthorFirstName)&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp; printBooksAvailable()&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp; printDetails()&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp; removeResource(resource)&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp; removeResourceFromPosition(position)&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp; returnBook(book, record Damage, damageDescription)&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp; searchAuthor Surname (authSurname)&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp; search Title(book Title)&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp; setCatalogue(cat)&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" id="Y-OMYpobRgQkIRk9tifp-25">
+          <mxCell style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="Y-OMYpobRgQkIRk9tifp-6">
+            <mxGeometry x="560" y="35" width="330" height="280" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;p style=&quot;text-align: center; margin: 4px 0px 0px;&quot;&gt;&lt;b&gt;AuthorTest&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; getAuthorAddress()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; getAuthorFirstName()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; getAauthorSurname()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; setAuthorAddress()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; setAuthorFirstName()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; setAauthorSurname()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; +&amp;nbsp; showDetails()&lt;/p&gt;" id="Y-OMYpobRgQkIRk9tifp-9">
+          <mxCell style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Y-OMYpobRgQkIRk9tifp-6">
+            <mxGeometry x="260" y="180" width="180" height="140" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Y-OMYpobRgQkIRk9tifp-41" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;strokeColor=#82b366;fontColor=#393C56;fillColor=#d5e8d4;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Y-OMYpobRgQkIRk9tifp-6" source="Y-OMYpobRgQkIRk9tifp-26" target="Y-OMYpobRgQkIRk9tifp-22">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1045.2" y="270" as="sourcePoint" />
+            <mxPoint x="750.2" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y-OMYpobRgQkIRk9tifp-42" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;strokeColor=#001DBC;fontColor=#393C56;fillColor=#0050ef;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Y-OMYpobRgQkIRk9tifp-6" source="Y-OMYpobRgQkIRk9tifp-7" target="Y-OMYpobRgQkIRk9tifp-25">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="230" y="380" as="sourcePoint" />
+            <mxPoint x="390" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y-OMYpobRgQkIRk9tifp-43" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;strokeColor=#001DBC;fontColor=#393C56;fillColor=#0050ef;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="Y-OMYpobRgQkIRk9tifp-6" source="Y-OMYpobRgQkIRk9tifp-12" target="Y-OMYpobRgQkIRk9tifp-25">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="440" y="550" as="sourcePoint" />
+            <mxPoint x="600" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y-OMYpobRgQkIRk9tifp-44" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;strokeColor=#001DBC;fontColor=#393C56;fillColor=#0050ef;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="Y-OMYpobRgQkIRk9tifp-6" source="Y-OMYpobRgQkIRk9tifp-19" target="Y-OMYpobRgQkIRk9tifp-25">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="440" y="550" as="sourcePoint" />
+            <mxPoint x="720" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y-OMYpobRgQkIRk9tifp-45" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;strokeColor=#001DBC;fontColor=#393C56;fillColor=#0050ef;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="Y-OMYpobRgQkIRk9tifp-6" source="Y-OMYpobRgQkIRk9tifp-22" target="Y-OMYpobRgQkIRk9tifp-25">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="440" y="550" as="sourcePoint" />
+            <mxPoint x="600" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;p style=&quot;text-align: center; margin: 4px 0px 0px;&quot;&gt;&lt;b&gt;PhysicalBookTest&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp;+&amp;nbsp; &amp;nbsp;addDamage(damage)&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp;+&amp;nbsp; &amp;nbsp;getAuthor()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp;+&amp;nbsp; &amp;nbsp;getBookTitle()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp;+&amp;nbsp; &amp;nbsp;getIsbn()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp;+&amp;nbsp; &amp;nbsp;getLibMember()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp;+&amp;nbsp; &amp;nbsp; setAuthor()&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;+&amp;nbsp; &amp;nbsp; setBookTitle()&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;+&amp;nbsp; &amp;nbsp; setIsbn()&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;+&amp;nbsp; &amp;nbsp; setLibMember()&lt;br&gt;&lt;/p&gt;" id="Y-OMYpobRgQkIRk9tifp-13">
+          <mxCell style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#00CC00;" vertex="1" parent="Y-OMYpobRgQkIRk9tifp-6">
+            <mxGeometry x="240" y="500" width="180" height="165" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

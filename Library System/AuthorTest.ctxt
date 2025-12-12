@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=AuthorTest
+comment0.text=\r\n\ The\ test\ class\ AuthorTest.\r\n\r\n\ @author\ \ Deepak\r\n\ @version\ 30.11.2023\r\n
+comment1.params=
+comment1.target=void\ getAuthorFirstName()
+comment1.text=\r\n\ Testing\ the\ method\ getAuthorFirstName.\r\n
+comment2.params=
+comment2.target=void\ setAuthorFirstName()
+comment2.text=\r\n\ Testing\ the\ method\ setAuthorFirstName.\r\n
+comment3.params=
+comment3.target=void\ getAuthorSurname()
+comment3.text=\r\n\ Testing\ the\ method\ getAuthorSurname.\r\n
+comment4.params=
+comment4.target=void\ setAuthorSurname()
+comment4.text=\r\n\ Testing\ the\ method\ setAuthorSurname.\r\n
+comment5.params=
+comment5.target=void\ getAuthorAddress()
+comment5.text=\r\n\ Testing\ the\ method\ getAuthorAddress.\r\n
+comment6.params=
+comment6.target=void\ setAuthorAddress()
+comment6.text=\r\n\ Testing\ the\ method\ setAuthorAddress.\r\n
+comment7.params=
+comment7.target=void\ showDetails()
+comment7.text=\r\n\ Testing\ the\ method\ showDetails.\r\n
+numComments=8
